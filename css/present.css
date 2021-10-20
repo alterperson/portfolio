@@ -1,0 +1,40 @@
+.present {
+  padding-top: 30px;
+}
+
+.present__content {
+  margin-top: 14px;
+}
+
+.present__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.present__subtitle {
+  margin-top: 7px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.present__description {
+  margin-top: 18px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.present__order-btn {
+  margin-top: 19px;
+  padding: 16px 60px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #e87c40;
+  border-radius: 4px;
+}
