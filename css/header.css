@@ -113,20 +113,20 @@
 
 @media (min-width: 992px) {
   .header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
+    width: 240px;
     padding: 50px 0;
   }
 
   .header__container {
     flex-direction: column;
+    align-items: flex-end;
     height: 100%;
   }
 
   .header__contacts {
     position: static;
+    display: block;
+    padding: 0;
   }
 
   .contacts__list {
@@ -144,6 +144,7 @@
 
 @media (min-width: 1440px) {
   .header {
+    width: 355px;
     padding-top: 60px;
   }
 }
