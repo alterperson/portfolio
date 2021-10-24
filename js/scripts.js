@@ -21,3 +21,7 @@ new Swiper(".swiper", {
     },
   },
 });
+
+$(".header__contacts-burger").click(function () {
+  $(".header__contacts").slideToggle();
+});
