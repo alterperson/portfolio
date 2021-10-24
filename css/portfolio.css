@@ -1,0 +1,76 @@
+.protfolio {
+}
+
+.portfolio__title {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: 252px;
+  margin: 0 auto;
+  padding: 20px 14px;
+}
+
+.card__picture {
+  align-self: center;
+  width: 155px;
+  height: 92px;
+  margin-bottom: 30px;
+  padding: 5px 20px 12px;
+  background-image: url(../img/portfolio/macbook.svg);
+  background-size: cover;
+}
+
+.card__data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 23px;
+  font-weight: 600;
+}
+
+.card__client {
+  line-height: 17px;
+}
+
+.card__date {
+  line-height: 20px;
+}
+
+.card__title {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.portfolio__slider {
+  position: relative;
+  max-width: 290px;
+  margin: 0 auto;
+}
+
+.portfolio__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.portfolio__arrow--left {
+  left: 0;
+}
+
+.portfolio__arrow--right {
+  right: 0;
+  transform: rotate(180deg);
+}
